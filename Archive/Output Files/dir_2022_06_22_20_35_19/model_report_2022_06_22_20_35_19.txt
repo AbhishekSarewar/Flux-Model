@@ -1,0 +1,123 @@
+
+ ##################### Features used ####################### 
+
+ Decision Tree features
+lime_setup, dololime_setup, hotmetal, bathwt, toplanceflowrate, o2toplance, dri_blow, dri_arc, lime_blowi, lime_arc, dolo_blow, dolo_arc, coke_f, o2decarb, hm_c_tons, hm_si_tons, hm_s_tons, hm_p_tons, hm_mn_tons
+ Regression Features 
+dololime_setup, dri_blow, dri_arc, lime_blowi, lime_arc, dolo_blow, dolo_arc, o2decarb, hm_c_tons, hm_si_tons, hm_p_tons, hm_mn_tons
+
+ ##################### Model Summary #######################
+MAPE : 33.29388238037832
+Adjusted RSquared : 87.6
+row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 6.64e-05 * row['dri_blow'] + 8.425e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -7.735e-05 * row['lime_arc'] + -6.731e-05 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -6.845e-07 * row['o2decarb'] + 0.0011 * row['hm_c_tons'] + 0.0002 * row['hm_si_tons'] + 0.0214 * row['hm_p_tons'] + 0.0003 * row['hm_mn_tons']
+
+MAPE : 32.734035849975214
+Adjusted RSquared : 88.8
+row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 5.605e-05 * row['dri_blow'] + 6.982e-05 * row['dri_arc'] + -0.0003 * row['lime_blowi'] + -2.663e-06 * row['lime_arc'] + -0.0005 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -5.209e-07 * row['o2decarb'] + 0.0017 * row['hm_c_tons'] + 0.0004 * row['hm_si_tons'] + 0.006 * row['hm_p_tons'] + 0.0008 * row['hm_mn_tons']
+
+MAPE : 37.221466433247265
+Adjusted RSquared : 86.7
+row['lm_p_predicted'] = 0.0004 * row['dololime_setup'] + 8.103e-05 * row['dri_blow'] + 7.429e-05 * row['dri_arc'] + -0.0003 * row['lime_blowi'] + 2.236e-06 * row['lime_arc'] + -0.0005 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -4.295e-07 * row['o2decarb'] + 0.0009 * row['hm_c_tons'] + 0.0009 * row['hm_si_tons'] + 0.0161 * row['hm_p_tons'] + 0.0014 * row['hm_mn_tons']
+
+MAPE : 33.76664475801959
+Adjusted RSquared : 87.8
+row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 8.741e-05 * row['dri_blow'] + 5.692e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + 0.0003 * row['lime_arc'] + -0.0009 * row['dolo_blow'] + -0.0001 * row['dolo_arc'] + -4.207e-07 * row['o2decarb'] + 0.0012 * row['hm_c_tons'] + 0.0003 * row['hm_si_tons'] + 0.0185 * row['hm_p_tons'] + 0.001 * row['hm_mn_tons']
+
+MAPE : 31.686441432335954
+Adjusted RSquared : 89.0
+row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 5.155e-05 * row['dri_blow'] + 9.918e-05 * row['dri_arc'] + -0.0001 * row['lime_blowi'] + 1.504e-07 * row['lime_arc'] + 0.0001 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -8.667e-07 * row['o2decarb'] + 0.0012 * row['hm_c_tons'] + -0.0004 * row['hm_si_tons'] + 0.0122 * row['hm_p_tons'] + 0.0011 * row['hm_mn_tons']
+
+MAPE : 32.001058381694754
+Adjusted RSquared : 90.0
+row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 0.0001 * row['dri_blow'] + 7.293e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -0.0004 * row['lime_arc'] + -0.0004 * row['dolo_blow'] + -0.0006 * row['dolo_arc'] + -2.045e-07 * row['o2decarb'] + 0.0011 * row['hm_c_tons'] + 0.0004 * row['hm_si_tons'] + 0.0209 * row['hm_p_tons'] + 0.0017 * row['hm_mn_tons']
+
+MAPE : 32.14830241221281
+Adjusted RSquared : 88.7
+row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 2.853e-05 * row['dri_blow'] + 5.935e-05 * row['dri_arc'] + 0.0002 * row['lime_blowi'] + 3.917e-06 * row['lime_arc'] + -0.0016 * row['dolo_blow'] + -0.0003 * row['dolo_arc'] + -8.309e-07 * row['o2decarb'] + 0.0025 * row['hm_c_tons'] + -0.001 * row['hm_si_tons'] + -0.0218 * row['hm_p_tons'] + 0.002 * row['hm_mn_tons']
+
+MAPE : 28.794407239132617
+Adjusted RSquared : 92.9
+row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 9.411e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -0.0002 * row['lime_arc'] + -0.0014 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -2.145e-07 * row['o2decarb'] + 0.0008 * row['hm_c_tons'] + 0.0011 * row['hm_si_tons'] + 0.0114 * row['hm_p_tons'] + 0.0005 * row['hm_mn_tons']
+
+MAPE : 30.13836506413254
+Adjusted RSquared : 90.10000000000001
+row['lm_p_predicted'] = -0.0001 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 6.984e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + -0.0002 * row['lime_arc'] + -0.001 * row['dolo_blow'] + -0.0007 * row['dolo_arc'] + 3.047e-06 * row['o2decarb'] + 0.0005 * row['hm_c_tons'] + 0.0001 * row['hm_si_tons'] + 0.034 * row['hm_p_tons'] + -0.0004 * row['hm_mn_tons']
+
+MAPE : 37.128358471558634
+Adjusted RSquared : 85.0
+row['lm_p_predicted'] = 0.0325 * row['dololime_setup'] + 0.0001 * row['dri_blow'] + 1.104e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + 0.0006 * row['lime_arc'] + -0.001 * row['dolo_blow'] + -0.0009 * row['dolo_arc'] + 2.108e-06 * row['o2decarb'] + -0.0001 * row['hm_c_tons'] + 0.0027 * row['hm_si_tons'] + 0.0538 * row['hm_p_tons'] + 0.0032 * row['hm_mn_tons']
+
+MAPE : 35.9968299971217
+Adjusted RSquared : 87.2
+row['lm_p_predicted'] = -0.0009 * row['dololime_setup'] + 1.602e-05 * row['dri_blow'] + 7.277e-05 * row['dri_arc'] + -0.0001 * row['lime_blowi'] + -0.0004 * row['lime_arc'] + -0.0019 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -1.598e-06 * row['o2decarb'] + 0.0017 * row['hm_c_tons'] + -0.0004 * row['hm_si_tons'] + 0.0321 * row['hm_p_tons'] + 8.575e-05 * row['hm_mn_tons']
+
+MAPE : 28.45697250120287
+Adjusted RSquared : 90.2
+row['lm_p_predicted'] = 0.0003 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 8.018e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + -0.0003 * row['lime_arc'] + 0.0002 * row['dolo_blow'] + -0.0003 * row['dolo_arc'] + 3.903e-06 * row['o2decarb'] + -0.0004 * row['hm_c_tons'] + 0.0001 * row['hm_si_tons'] + 0.0104 * row['hm_p_tons'] + 0.0006 * row['hm_mn_tons']
+
+MAPE : 29.972329437976942
+Adjusted RSquared : 93.30000000000001
+row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 6.856e-05 * row['dri_arc'] + -0.0006 * row['lime_blowi'] + -0.0013 * row['lime_arc'] + 0.0007 * row['dolo_blow'] + -0.0007 * row['dolo_arc'] + -2.157e-07 * row['o2decarb'] + 0.0026 * row['hm_c_tons'] + -0.0046 * row['hm_si_tons'] + 0.0453 * row['hm_p_tons'] + 0.0005 * row['hm_mn_tons']
+
+MAPE : 27.817709189126894
+Adjusted RSquared : 97.6
+row['lm_p_predicted'] = 0.0006 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 0.0001 * row['dri_arc'] + -0.0007 * row['lime_blowi'] + -0.001 * row['lime_arc'] + -0.0013 * row['dolo_blow'] + -0.0005 * row['dolo_arc'] + -1.041e-06 * row['o2decarb'] + 0.0031 * row['hm_c_tons'] + 0.0022 * row['hm_si_tons'] + -0.0196 * row['hm_p_tons'] + -0.0019 * row['hm_mn_tons']
+
+MAPE : 52.8665806993617
+Adjusted RSquared : 84.0
+row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + -0.0005 * row['dri_blow'] + 8.026e-05 * row['dri_arc'] + -0.0009 * row['lime_blowi'] + 0.0005 * row['lime_arc'] + -0.0864 * row['dolo_blow'] + 0.0052 * row['dolo_arc'] + -4.778e-07 * row['o2decarb'] + 0.0068 * row['hm_c_tons'] + 0.0018 * row['hm_si_tons'] + -0.0065 * row['hm_p_tons'] + -0.0051 * row['hm_mn_tons']
+
+MAPE : 39.78536656575156
+Adjusted RSquared : 87.7
+row['lm_p_predicted'] = -0.0007 * row['dololime_setup'] + 0.0005 * row['dri_blow'] + 0.0001 * row['dri_arc'] + 0.0002 * row['lime_blowi'] + 0.0004 * row['lime_arc'] + 3.671e-16 * row['dolo_blow'] + -0.0012 * row['dolo_arc'] + -2.588e-06 * row['o2decarb'] + 0.0076 * row['hm_c_tons'] + -0.0048 * row['hm_si_tons'] + -0.202 * row['hm_p_tons'] + 0.0041 * row['hm_mn_tons']
+
+
+ ############## Rules for Prediction Python Code ################ 
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] > 10.55) and (row['toplanceflowrate'] > 230.45) and (row['coke_f'] <= 1031.3):
+	row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 6.64e-05 * row['dri_blow'] + 8.425e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -7.735e-05 * row['lime_arc'] + -6.731e-05 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -6.845e-07 * row['o2decarb'] + 0.0011 * row['hm_c_tons'] + 0.0002 * row['hm_si_tons'] + 0.0214 * row['hm_p_tons'] + 0.0003 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] > 10.55) and (row['toplanceflowrate'] <= 230.45) and (row['coke_f'] > 340.15):
+	row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 5.605e-05 * row['dri_blow'] + 6.982e-05 * row['dri_arc'] + -0.0003 * row['lime_blowi'] + -2.663e-06 * row['lime_arc'] + -0.0005 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -5.209e-07 * row['o2decarb'] + 0.0017 * row['hm_c_tons'] + 0.0004 * row['hm_si_tons'] + 0.006 * row['hm_p_tons'] + 0.0008 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] > 12.75) and (row['coke_f'] <= 398.5) and (row['dololime_setup'] > 0.15):
+	row['lm_p_predicted'] = 0.0004 * row['dololime_setup'] + 8.103e-05 * row['dri_blow'] + 7.429e-05 * row['dri_arc'] + -0.0003 * row['lime_blowi'] + 2.236e-06 * row['lime_arc'] + -0.0005 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -4.295e-07 * row['o2decarb'] + 0.0009 * row['hm_c_tons'] + 0.0009 * row['hm_si_tons'] + 0.0161 * row['hm_p_tons'] + 0.0014 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] > 12.75) and (row['coke_f'] > 398.5) and (row['bathwt'] > 171.35):
+	row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 8.741e-05 * row['dri_blow'] + 5.692e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + 0.0003 * row['lime_arc'] + -0.0009 * row['dolo_blow'] + -0.0001 * row['dolo_arc'] + -4.207e-07 * row['o2decarb'] + 0.0012 * row['hm_c_tons'] + 0.0003 * row['hm_si_tons'] + 0.0185 * row['hm_p_tons'] + 0.001 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] > 10.55) and (row['toplanceflowrate'] <= 230.45) and (row['coke_f'] <= 340.15):
+	row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 5.155e-05 * row['dri_blow'] + 9.918e-05 * row['dri_arc'] + -0.0001 * row['lime_blowi'] + 1.504e-07 * row['lime_arc'] + 0.0001 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -8.667e-07 * row['o2decarb'] + 0.0012 * row['hm_c_tons'] + -0.0004 * row['hm_si_tons'] + 0.0122 * row['hm_p_tons'] + 0.0011 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] <= 10.55) and (row['lime_arc'] <= 4.85) and (row['dri_arc'] <= 75.6):
+	row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 0.0001 * row['dri_blow'] + 7.293e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -0.0004 * row['lime_arc'] + -0.0004 * row['dolo_blow'] + -0.0006 * row['dolo_arc'] + -2.045e-07 * row['o2decarb'] + 0.0011 * row['hm_c_tons'] + 0.0004 * row['hm_si_tons'] + 0.0209 * row['hm_p_tons'] + 0.0017 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] > 10.55) and (row['toplanceflowrate'] > 230.45) and (row['coke_f'] > 1031.3):
+	row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 2.853e-05 * row['dri_blow'] + 5.935e-05 * row['dri_arc'] + 0.0002 * row['lime_blowi'] + 3.917e-06 * row['lime_arc'] + -0.0016 * row['dolo_blow'] + -0.0003 * row['dolo_arc'] + -8.309e-07 * row['o2decarb'] + 0.0025 * row['hm_c_tons'] + -0.001 * row['hm_si_tons'] + -0.0218 * row['hm_p_tons'] + 0.002 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] <= 10.55) and (row['lime_arc'] > 4.85) and (row['o2toplance'] <= 6647.3):
+	row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 9.411e-05 * row['dri_arc'] + -0.0002 * row['lime_blowi'] + -0.0002 * row['lime_arc'] + -0.0014 * row['dolo_blow'] + -0.0004 * row['dolo_arc'] + -2.145e-07 * row['o2decarb'] + 0.0008 * row['hm_c_tons'] + 0.0011 * row['hm_si_tons'] + 0.0114 * row['hm_p_tons'] + 0.0005 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] <= 12.75) and (row['o2decarb'] <= 2009.0) and (row['bathwt'] <= 232.25):
+	row['lm_p_predicted'] = -0.0001 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 6.984e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + -0.0002 * row['lime_arc'] + -0.001 * row['dolo_blow'] + -0.0007 * row['dolo_arc'] + 3.047e-06 * row['o2decarb'] + 0.0005 * row['hm_c_tons'] + 0.0001 * row['hm_si_tons'] + 0.034 * row['hm_p_tons'] + -0.0004 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] > 12.75) and (row['coke_f'] <= 398.5) and (row['dololime_setup'] <= 0.15):
+	row['lm_p_predicted'] = 0.0325 * row['dololime_setup'] + 0.0001 * row['dri_blow'] + 1.104e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + 0.0006 * row['lime_arc'] + -0.001 * row['dolo_blow'] + -0.0009 * row['dolo_arc'] + 2.108e-06 * row['o2decarb'] + -0.0001 * row['hm_c_tons'] + 0.0027 * row['hm_si_tons'] + 0.0538 * row['hm_p_tons'] + 0.0032 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] <= 12.75) and (row['o2decarb'] > 2009.0) and (row['dri_arc'] > 54.65):
+	row['lm_p_predicted'] = -0.0009 * row['dololime_setup'] + 1.602e-05 * row['dri_blow'] + 7.277e-05 * row['dri_arc'] + -0.0001 * row['lime_blowi'] + -0.0004 * row['lime_arc'] + -0.0019 * row['dolo_blow'] + -0.0002 * row['dolo_arc'] + -1.598e-06 * row['o2decarb'] + 0.0017 * row['hm_c_tons'] + -0.0004 * row['hm_si_tons'] + 0.0321 * row['hm_p_tons'] + 8.575e-05 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] <= 12.75) and (row['o2decarb'] > 2009.0) and (row['dri_arc'] <= 54.65):
+	row['lm_p_predicted'] = 0.0003 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 8.018e-05 * row['dri_arc'] + -0.0004 * row['lime_blowi'] + -0.0003 * row['lime_arc'] + 0.0002 * row['dolo_blow'] + -0.0003 * row['dolo_arc'] + 3.903e-06 * row['o2decarb'] + -0.0004 * row['hm_c_tons'] + 0.0001 * row['hm_si_tons'] + 0.0104 * row['hm_p_tons'] + 0.0006 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] <= 10.55) and (row['lime_arc'] <= 4.85) and (row['dri_arc'] > 75.6):
+	row['lm_p_predicted'] = -0.0002 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 6.856e-05 * row['dri_arc'] + -0.0006 * row['lime_blowi'] + -0.0013 * row['lime_arc'] + 0.0007 * row['dolo_blow'] + -0.0007 * row['dolo_arc'] + -2.157e-07 * row['o2decarb'] + 0.0026 * row['hm_c_tons'] + -0.0046 * row['hm_si_tons'] + 0.0453 * row['hm_p_tons'] + 0.0005 * row['hm_mn_tons']
+
+elif (row['o2decarb'] > 2468.5) and (row['dri_blow'] <= 10.55) and (row['lime_arc'] > 4.85) and (row['o2toplance'] > 6647.3):
+	row['lm_p_predicted'] = 0.0006 * row['dololime_setup'] + 0.0002 * row['dri_blow'] + 0.0001 * row['dri_arc'] + -0.0007 * row['lime_blowi'] + -0.001 * row['lime_arc'] + -0.0013 * row['dolo_blow'] + -0.0005 * row['dolo_arc'] + -1.041e-06 * row['o2decarb'] + 0.0031 * row['hm_c_tons'] + 0.0022 * row['hm_si_tons'] + -0.0196 * row['hm_p_tons'] + -0.0019 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] > 12.75) and (row['coke_f'] > 398.5) and (row['bathwt'] <= 171.35):
+	row['lm_p_predicted'] = -0.0004 * row['dololime_setup'] + -0.0005 * row['dri_blow'] + 8.026e-05 * row['dri_arc'] + -0.0009 * row['lime_blowi'] + 0.0005 * row['lime_arc'] + -0.0864 * row['dolo_blow'] + 0.0052 * row['dolo_arc'] + -4.778e-07 * row['o2decarb'] + 0.0068 * row['hm_c_tons'] + 0.0018 * row['hm_si_tons'] + -0.0065 * row['hm_p_tons'] + -0.0051 * row['hm_mn_tons']
+
+elif (row['o2decarb'] <= 2468.5) and (row['dri_blow'] <= 12.75) and (row['o2decarb'] <= 2009.0) and (row['bathwt'] > 232.25):
+	row['lm_p_predicted'] = -0.0007 * row['dololime_setup'] + 0.0005 * row['dri_blow'] + 0.0001 * row['dri_arc'] + 0.0002 * row['lime_blowi'] + 0.0004 * row['lime_arc'] + 3.671e-16 * row['dolo_blow'] + -0.0012 * row['dolo_arc'] + -2.588e-06 * row['o2decarb'] + 0.0076 * row['hm_c_tons'] + -0.0048 * row['hm_si_tons'] + -0.202 * row['hm_p_tons'] + 0.0041 * row['hm_mn_tons']
+
